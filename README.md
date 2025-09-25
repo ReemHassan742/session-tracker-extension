@@ -55,6 +55,7 @@ Calling the Web App URL will return:
   "estimatedSalary": 400
 }
 ````
+---
 **Permissions & Security**
 
 -Gmail access is required and authorized through Google Apps Script when you deploy.
