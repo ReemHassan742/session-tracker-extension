@@ -1,10 +1,10 @@
-*Instructor Session Tracker (Gmail + Google Apps Script)*
+**Instructor Session Tracker (Gmail + Google Apps Script)**
 
 A lightweight Chrome extension and Google Apps Script-based tool to help instructors automatically track their paid sessions using Gmail form submission emails.
 
 ---
 
-*Features*
+**Features**
 
 -  Scans your Gmail inbox for session form submission emails.
 -  Tracks sessions from the **25th of the previous month** to the **25th of the current month**.
@@ -14,9 +14,9 @@ A lightweight Chrome extension and Google Apps Script-based tool to help instruc
 
 ---
 
-* Setup Instructions*
+**Setup Instructions**
 
-*1. Google Apps Script (Backend)*
+**1. Google Apps Script (Backend)**
 
 1. Go to [https://script.google.com](https://script.google.com) and create a new project.
 2. Paste in the contents of `Code.gs` from this repo.
@@ -29,7 +29,7 @@ A lightweight Chrome extension and Google Apps Script-based tool to help instruc
    - **Who has access:** `Only myself` or `Anyone with the link` (if public-facing)
 6. Deploy and copy your **Web App URL**.
 
-* 2. Chrome Extension (Optional UI) *
+**2. Chrome Extension (Optional UI)**
 
 > If you're using the included Chrome extension UI:
 
@@ -40,7 +40,7 @@ A lightweight Chrome extension and Google Apps Script-based tool to help instruc
 
 ---
 
-*Example JSON Output*
+**Example JSON Output**
 
 Calling the Web App URL will return:
 
@@ -55,7 +55,7 @@ Calling the Web App URL will return:
   "estimatedSalary": 400
 }
 ````
-*Permissions & Security*
+**Permissions & Security**
 
 -Gmail access is required and authorized through Google Apps Script when you deploy.
 
